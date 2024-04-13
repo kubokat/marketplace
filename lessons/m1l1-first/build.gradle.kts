@@ -1,12 +1,10 @@
 plugins {
     kotlin("jvm")
+    application
 }
 
-group = "ru.otuskotlin.marketplace"
-version = "unspecified"
-
-repositories {
-    mavenCentral()
+application {
+    mainClass.set("ru.otuskotlin.m1l1.MainKt")
 }
 
 dependencies {
